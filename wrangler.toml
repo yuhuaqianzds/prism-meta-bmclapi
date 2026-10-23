@@ -1,3 +1,6 @@
 name = "prism-meta-bmclapi"
+# Worker 名称，随便起，不影响功能
 main = "worker.js"
-compatibility_date = "2026-07-01"
+# 入口文件，告诉 Cloudflare 从哪个文件开始执行代码
+compatibility_date = "2024-01-01"
+# 锁定 Cloudflare 运行环境版本，避免以后更新导致行为变化；不能填未来日期
